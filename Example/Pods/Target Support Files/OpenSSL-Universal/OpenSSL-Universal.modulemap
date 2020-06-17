@@ -1,0 +1,6 @@
+framework module OpenSSL_Universal {
+  umbrella header "OpenSSL-Universal-umbrella.h"
+
+  export *
+  module * { export * }
+}

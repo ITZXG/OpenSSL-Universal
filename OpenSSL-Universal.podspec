@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OpenSSL-Universal'
-  s.version          = '0.1.0'
+  s.version          = '1.0.2.19'
   s.summary          = 'A short description of OpenSSL-Universal.'
 
 # This description is used to generate tags and improve search results.
@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'OpenSSL-Universal/Classes/**/*'
+  
+  s.vendored_libraries = 'OpenSSL-Universal/lib/*.a'
   
   # s.resource_bundles = {
   #   'OpenSSL-Universal' => ['OpenSSL-Universal/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'OpenSSL-Universal/include/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

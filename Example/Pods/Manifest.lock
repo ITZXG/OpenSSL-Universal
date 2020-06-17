@@ -1,0 +1,16 @@
+PODS:
+  - OpenSSL-Universal (0.1.0)
+
+DEPENDENCIES:
+  - OpenSSL-Universal (from `../`)
+
+EXTERNAL SOURCES:
+  OpenSSL-Universal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenSSL-Universal: 82aebd39ee15132ab0869cb93cc6960fde80dfc6
+
+PODFILE CHECKSUM: 3f048c31189afb48139f5c04b970b25a973b5965
+
+COCOAPODS: 1.8.4

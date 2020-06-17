@@ -1,0 +1,23 @@
+{
+  "name": "OpenSSL-Universal",
+  "version": "0.1.0",
+  "summary": "A short description of OpenSSL-Universal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/richiezhl/OpenSSL-Universal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "richiezhl": "lylaut@163.com"
+  },
+  "source": {
+    "git": "https://github.com/richiezhl/OpenSSL-Universal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_libraries": "OpenSSL-Universal/lib/*.a",
+  "public_header_files": "Pods/include/**/*.h"
+}
