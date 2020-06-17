@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
   
   s.vendored_libraries = 'OpenSSL-Universal/lib/*.a'
   
+  s.source_files = 'OpenSSL-Universal/include/**/*.h'
+  
   # s.resource_bundles = {
   #   'OpenSSL-Universal' => ['OpenSSL-Universal/Assets/*.png']
   # }
