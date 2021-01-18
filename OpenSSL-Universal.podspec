@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.name             = 'OpenSSL-Universal'
   s.version          = '1.0.2.19'
   s.summary          = 'A short description of OpenSSL-Universal.'
-  s.static_framework = true
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -42,4 +41,5 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'OpenSSL-Universal/include/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+ s.static_framework  =  true
 end
