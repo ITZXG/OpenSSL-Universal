@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'OpenSSL-Universal'
   s.version          = '1.0.2.19'
   s.summary          = 'A short description of OpenSSL-Universal.'
+  s.static_framework = true
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -29,8 +30,6 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.static_framework = true
-
   
   s.vendored_libraries = 'OpenSSL-Universal/lib/*.a'
   
